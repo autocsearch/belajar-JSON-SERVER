@@ -1,0 +1,62 @@
+{
+  "user": {
+    "id": 12345,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "profile": {
+      "age": 30,
+      "gender": "male",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      }
+    }
+  },
+  "posts": [
+    {
+      "id": 1,
+      "title": "Lorem Ipsum",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "date": "2024-01-01T12:00:00Z",
+      "comments": [
+        {
+          "id": 1,
+          "user": "Jane Doe",
+          "content": "Great post!",
+          "date": "2024-01-01T12:30:00Z"
+        },
+        {
+          "id": 2,
+          "user": "Mike Smith",
+          "content": "Thanks for sharing.",
+          "date": "2024-01-01T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sed Do Eiusmod",
+      "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "date": "2024-02-01T12:00:00Z",
+      "comments": [
+        {
+          "id": 1,
+          "user": "Alice Johnson",
+          "content": "Very informative.",
+          "date": "2024-02-01T12:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": 1721980917597,
+      "title": "sss",
+      "views": 0
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "notifications": true,
+    "language": "en"
+  }
+}
